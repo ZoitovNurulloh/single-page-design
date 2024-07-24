@@ -26,9 +26,6 @@
   font-display: swap;
 }
 
-
-
-
 /* GLOBAL */
 
 html {
@@ -49,8 +46,6 @@ body {
   flex-direction: column;
   height: 100%;
   font-family:"Plus Jakarta Sans", "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 img {
