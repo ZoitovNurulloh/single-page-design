@@ -27,6 +27,34 @@ body {
 .logo:active {
   opacity: 0.6;
 }
+
+.btn {
+  width: 14.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  padding: 14px 45px;
+  border-radius: 1.75rem;
+  color: #030303;
+  background-color: #fff;
+  cursor: pointer;
+}
+.btn--dark {
+  transition: background-color 0.2s ease;
+  color: #fff7f0;
+  background-color: #030303;
+}
+.btn--dark:hover {
+  background-color: #755cde;
+}
+.btn--red {
+  color: #fff7f0;
+  background-color: #eb7565;
+  transition: background-color 0.2s ease;
+}
+.btn--red:hover {
+  background-color: #f6a560;
+}
 .logo {
   display: block;
   margin-right: 1rem;
