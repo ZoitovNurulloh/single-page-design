@@ -55,6 +55,29 @@ body {
 .btn--red:hover {
   background-color: #f6a560;
 }
+.arrow {
+  cursor: pointer;
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #030303;
+  transition: background-color 0.2s ease;
+}
+.arrow span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow img {
+  display: block;
+  width: 0.9375rem;
+  height: 1rem;
+}
+.arrow:hover {
+  transition: background-color 0.2s ease;
+  background-color: #755cde;
+}
 .logo {
   display: block;
   margin-right: 1rem;
