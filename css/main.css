@@ -20,5 +20,14 @@ body {
     padding-right: 1rem;
   }
 }
+.logo {
+  display: block;
+  margin-right: 1rem;
+}
+.logo__img {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+}
 
 /*# sourceMappingURL=main.css.map */
