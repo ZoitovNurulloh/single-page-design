@@ -5,4 +5,20 @@ body {
   color: #030303;
 }
 
+.container {
+  width: 100%;
+  max-width: 74.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
