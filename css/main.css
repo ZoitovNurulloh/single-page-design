@@ -20,6 +20,13 @@ body {
     padding-right: 1rem;
   }
 }
+.logo:hover, .arrow:active, .btn:active {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.6;
+}
 .logo {
   display: block;
   margin-right: 1rem;
