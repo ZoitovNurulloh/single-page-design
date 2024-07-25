@@ -214,6 +214,85 @@ body {
     font-size: 0.875rem;
   }
 }
+.book {
+  max-width: 69.375rem;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 0.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #030303;
+  color: #fff7f0;
+  padding: 5rem 5.9375rem 5rem 4.125rem;
+}
+.book__content {
+  width: 33.75rem;
+  margin-right: 1rem;
+}
+.book__heading {
+  font-size: 2.5rem;
+  line-height: 3.125rem;
+  margin-bottom: 1.625rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .book {
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    padding: 3.5rem 4.6875rem 4rem 4.6875rem;
+  }
+  .book__content {
+    width: 25rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .book {
+    flex-direction: column;
+    text-align: center;
+  }
+  .book__content {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1.625rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .book {
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    padding: 4.6875rem;
+  }
+  .book__heading {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .book {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 3rem 1.5rem;
+  }
+  .book__content {
+    margin-bottom: 2rem;
+  }
+  .book__heading {
+    font-size: 1.625rem;
+    line-height: 2.125rem;
+  }
+  .book__heading {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .book .btn {
+    width: 176px;
+    padding: 0.5rem 1.75rem;
+    font-size: 0.875rem;
+  }
+}
 .footer {
   margin-top: 3.5rem;
   margin-bottom: 4rem;
