@@ -97,6 +97,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
 @media only screen and (max-width: 450px) {
   .header {
     margin-top: 1rem;
@@ -112,7 +113,126 @@ body {
     font-size: 0.875rem;
   }
 }
+.hero {
+  margin-bottom: 8.5rem;
+}
+.hero__content {
+  text-align: center;
+  width: 100%;
+  max-width: 47rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5rem;
+}
+.hero__heading {
+  font-size: 3.5rem;
+  line-height: 4.6875rem;
+  margin-bottom: 1.5rem;
+}
+.hero__description {
+  color: #7a746e;
+}
 
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 11.375rem 9.875rem;
+  gap: 1.5625rem;
+  color: #fff7f0;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.grid__inner {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1.5625rem;
+}
+.grid__inner--img {
+  position: absolute;
+  display: block;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+.grid__inner--item-1 {
+  position: relative;
+  background-color: #f6a560;
+  border-radius: 0.5rem;
+}
+.grid__inner--item-2 {
+  position: relative;
+  background-color: #f39e9e;
+  border-radius: 0.5rem;
+}
+.grid__inner--heading {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+}
+.grid__item {
+  border-radius: 0.5rem;
+  position: relative;
+}
+.grid__img {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  display: block;
+}
+.grid__heading {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+}
+.grid-1 {
+  background-color: #755cde;
+  grid-row: 1/span 2;
+}
+.grid-2 {
+  background-color: #61c4b7;
+}
+.grid-3 {
+  background-color: #eb7565;
+}
+.grid-4 {
+  background-color: #552049;
+}
+
+@media only screen and (max-width: 810px) {
+  .hero {
+    margin-bottom: 7.5rem;
+  }
+  .hero__content {
+    margin-bottom: 4rem;
+  }
+  .grid {
+    grid-template-columns: auto auto;
+    grid-template-rows: 11.375rem 11.375rem 11.375rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero {
+    margin-bottom: 6.25rem;
+  }
+  .hero__content {
+    margin-bottom: 2rem;
+  }
+  .grid {
+    grid-template-columns: auto;
+    grid-template-rows: 11.375rem 11.375rem 11.375rem 9.875rem 11.375rem 11.375rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .grid {
+    grid-template-rows: 11.375rem 11.375rem 22.75rem 9.875rem 11.375rem 11.375rem;
+  }
+  .grid__inner {
+    grid-template-columns: auto;
+    grid-template-rows: 11.375rem 11.375rem;
+  }
+  .grid__inner--item-1 {
+    margin-bottom: 1.5rem;
+  }
+}
 .work {
   margin-bottom: 5.5rem;
 }
